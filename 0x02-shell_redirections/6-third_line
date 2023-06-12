@@ -1,0 +1,4 @@
+#!/bin/bash 
+thirdline=$(sed -n '3p' iacta)
+echo $thirdline
+
